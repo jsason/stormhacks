@@ -1,0 +1,20 @@
+body {
+    background-color: #313d45;
+}
+
+/* next three are for navigation bar */
+.topbar {
+    background-color: #313d45;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    padding-left: 15px;
+}
+.topbar h1 {
+    float: center;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold ;
+}
+
