@@ -39,4 +39,11 @@ section {
     left: 15px;
     top: 115px;
 }
+.hovers {
+    width: 300px;
+    transition: box-shadow 0.3s ease-in-out;
+  }
+.hovers:hover {
+    box-shadow: 5px 5px 10px rgba(197, 46, 46, 0.3);
+  }
 
