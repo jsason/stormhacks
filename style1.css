@@ -1,0 +1,22 @@
+body {
+    background-color: #26303A;
+}
+.topbar {
+    background: #30475E;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.topbar h1 {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.21em;
+    color: #FFFFFF;
+    
+}
