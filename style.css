@@ -176,9 +176,9 @@ img.avatar {
 
 .bar {
   position: fixed;
-  width: 288px;
+  width: 304px;
   height: 46px;
-  left: -5px;
+  left: -15px;
   top: 106px;
 }
 .search{
