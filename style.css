@@ -35,6 +35,9 @@ section {
     padding-top: 112px;
     margin-left: -20px;
 }
+.row {
+    flex-direction: column;
+  }
 .user {
     background-color: #E94560;
     color: white;
