@@ -37,7 +37,6 @@ body {
 }
 .name{
   position:fixed;
-
   left: -10px;
   bottom: 35px;
 }
@@ -74,7 +73,7 @@ body {
     transition: box-shadow 0.3s ease-in-out;
   }
 .hovers:hover {
-    box-shadow: 5px 5px 10px rgba(197, 46, 46, 0.3);
+    box-shadow: 5px 5px 10px rgba(199, 242, 250, 0.3);
   }
 /* Full-width input fields */
 input[type=text], input[type=password] {
@@ -87,9 +86,9 @@ input[type=text], input[type=password] {
   }
   
   /* Set a style for all buttons */
-  button {
+button {
     background-color: #ffffff;
-    color: rgb(48, 54, 77);
+    color: rgba(48, 54, 100, 0.932);
     padding: 14px 20px;
     margin: -85px 0px;
     border-radius: 6px;
@@ -98,7 +97,7 @@ input[type=text], input[type=password] {
     width: 100%;
   }
   
-  button:hover {
+button:hover {
     opacity: 0.8;
   }
   
@@ -174,4 +173,15 @@ img.avatar {
     from {transform: scale(0)} 
     to {transform: scale(1)}
   }
+
+div {
+  position: fixed;
+  width: 288px;
+  height: 46px;
+  left: -5px;
+  top: 106px;
+}
+.search{
+  border-radius: 20px;
+}
 
