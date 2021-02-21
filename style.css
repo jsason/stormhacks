@@ -32,36 +32,38 @@ body {
     ;
 }
 section {
-    padding-top: 112px;
-    margin-left: -20px;
+  padding-top: 25px;
+  margin-left: -20px;
+}
+.name{
+  padding-top: 120px;
+  margin-left: -20px;
 }
 .user {
     background-color: #E94560;
     color: white;
-    padding: 20px 80px;
+    padding: 20px 93px;
     border-radius: 8px;
     text-decoration: none;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
 }
+.user img {
+  position: absolute;
+  left: 15px;
+  top: 115px;
+}
 .course { 
+    display: block;
     background: #222831;
-    border: 5px solid #1A1A2E;
+    border: 3px solid #1A1A2E;
     padding: 20px 80px;
-    width: 100%;
-    max-width: 500px;
-    border-radius: 7px;
     box-sizing: border-box;
-    table-layout: fixed;
+    border-radius: 10px;
     text-decoration: none;
-    font-family: Roboto;
+    font-family: Arial, Helvetica, sans-serif;
     color: #E94560;
     font-size: 24px;;
-}
-.user img {
-    position: absolute;
-    left: 15px;
-    top: 115px;
 }
 
 /* button hover functions */
@@ -105,13 +107,13 @@ input[type=text], input[type=password] {
     position: relative;
   }
   
-  img.avatar {
-    width: 40%;
-    border-radius: 50%;
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
   }
   
-  .container {
-    padding: 16px;
+.container {
+  padding: 16px;
   }
 
   
