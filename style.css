@@ -74,7 +74,7 @@ body {
     transition: box-shadow 0.3s ease-in-out;
   }
 .hovers:hover {
-    box-shadow: 5px 5px 10px rgba(199, 242, 250, 0.3);
+    box-shadow: 5px 5px 10px rgba(12, 11, 11, 0.3);
   }
 /* Full-width input fields */
 input[type=text], input[type=password] {
