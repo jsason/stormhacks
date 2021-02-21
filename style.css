@@ -34,17 +34,17 @@ body {
 }
 .s1 {
   padding-top: 160px;
-  margin-left: -20px;
+  margin-left: 1px;
 }
 .name{
   position:fixed;
-  left: -10px;
+  left: 10px;
   bottom: 35px;
 }
 .user {
     background-color: #DDDDDD;
     color: black;
-    padding: 20px 92.6px;
+    padding: 20px 120px;
     border-radius: 8px;
     text-decoration: none;
     font-family: Helvetica, sans-serif;
@@ -52,7 +52,7 @@ body {
 }
 .user img {
   position: fixed;
-  left: 20px;
+  left: 30px;
   bottom: 28px;
 }
 .course { 
@@ -179,10 +179,61 @@ img.avatar {
   position: fixed;
   width: 304px;
   height: 46px;
-  left: -15px;
+  left: 5px;
   top: 106px;
 }
 .search{
   border-radius: 20px;
 }
-
+.bigtext{
+  position: fixed;
+  width: 448px;
+  height: 144px;
+  left: 393px;
+  top: 230px;
+  font-size: 18px;
+  background: #DDDDDD;
+  box-shadow: 0px 1px 29px -14px #DDDDDD;
+  border-radius: 39px;
+}
+p{
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(255, 255, 255);
+}
+.smalltext{
+  position: fixed;
+  width: 272px;
+  height: 93px;
+  right: 20px;
+  top: 400px;
+  font-size: 18px;
+  background: #50BFC3;
+  box-shadow: 0px 1px 29px -14px #DDDDDD;
+  border-radius: 39px;
+}
+.medtext{
+  position: fixed;
+  width: 448px;
+  height: 144px;
+  left: 393px;
+  top: 520px;
+  font-size: 18px;
+  background: #DDDDDD;
+  box-shadow: 0px 1px 29px -14px #DDDDDD;
+  border-radius: 39px;
+}
+.chat{
+  position: fixed;
+  bottom: 0px;
+  right: 70px;
+  width: 750px;
+}
+.inline{
+  display:inline-block;
+}
+.arrow {
+  position: fixed;
+  bottom: 15px;
+  right:24px;
+}
