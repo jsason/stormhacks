@@ -48,7 +48,11 @@ section {
     background: #222831;
     border: 5px solid #1A1A2E;
     padding: 20px 80px;
+    width: 100%;
+    max-width: 500px;
     border-radius: 7px;
+    box-sizing: border-box;
+    table-layout: fixed;
     text-decoration: none;
     font-family: Roboto;
     color: #E94560;
