@@ -35,9 +35,6 @@ section {
     padding-top: 112px;
     margin-left: -20px;
 }
-.row {
-    flex-direction: column;
-  }
 .user {
     background-color: #E94560;
     color: white;
@@ -46,6 +43,16 @@ section {
     text-decoration: none;
     font-family: Helvetica, sans-serif;
     font-size: 22px;
+}
+.course { 
+    background: #222831;
+    border: 5px solid #1A1A2E;
+    padding: 20px 80px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-family: Roboto;
+    color: #E94560;
+    font-size: 24px;;
 }
 .user img {
     position: absolute;
@@ -102,7 +109,6 @@ input[type=text], input[type=password] {
   .container {
     padding: 16px;
   }
-  
 
   
   /* The Modal (background) */
