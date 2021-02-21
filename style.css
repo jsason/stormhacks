@@ -137,7 +137,7 @@ img.avatar {
     background-color: #6eaeb9;
     margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #6eaeb9;
-    width: 50%; /* Could be more or less, depending on screen size */
+    width: 360px; /* Could be more or less, depending on screen size */
     font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
   }
