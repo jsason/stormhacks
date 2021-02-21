@@ -1,5 +1,5 @@
 body {
-    background-color: #1A1A2E;
+    background-color: #26303A;
 }
 
 /* next three are for navigation bar */
@@ -40,8 +40,8 @@ section {
   margin-left: -20px;
 }
 .user {
-    background-color: #E94560;
-    color: white;
+    background-color: #DDDDDD;
+    color: black;
     padding: 20px 92.6px;
     border-radius: 8px;
     text-decoration: none;
@@ -55,14 +55,15 @@ section {
 }
 .course { 
     display: block;
-    background: #222831;
-    border: 3px solid #1A1A2E;
+    background: #30475E;
+    border: 1px solid #1A1A2E;
     padding: 20px 80px;
     box-sizing: border-box;
+    box-shadow: 0px 5px 4px #30475E);
     border-radius: 10px;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
-    color: #CD3D30;
+    color: #FFFFFF;
     font-size: 24px;;
 }
 
