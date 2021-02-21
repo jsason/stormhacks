@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style2.css">
+    <title>Class Chat</title>
+    </head>
+<body>
+    <header class="topbar">
+        <h1>Class Chat</h1>
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+        <div id="id01" class="modal">
+          
+          <form class="modal-content animate"  method="post">
+            <div class="imgcontainer">
+              <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+              <img src="img/768px-Circle-icons-profile.svg.png" alt="Avatar" class="avatar">
+            </div>
+        
+            <div class="container">
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+        
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+                <br> <br> <br> <br> <br> <br>
+              <button type="submit" style="width:auto; position: absolute;
+              left: 50%;
+              -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -5%);">Login</button>
+              <label>
+                <input type="checkbox" checked="checked" name="remember"> Remember me
+              </label>
+            </div>
+        
+          </form>
+        </div>
+        <script>
+            // Get the modal
+            var modal = document.getElementById('id01');
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        </script>
+    </header>
+    <section style="float:left;">
+        <div class= "bar">
+            <input type="text" placeholder="Search All Messages..." class="search">
+        </div>
+        <section class="s1">
+            <article >
+                <a href="./cmns.html" class="clicked hovers">
+                    CMNS110
+                </a>
+            </article>
+            <br>  
+            <article >
+                <a href="./cmns.html" class="course hovers">
+                    CMPT130
+                </a>
+            </article>
+            <br>  
+            <article >
+                <a href="./cmns.html" class="course hovers">
+                    BUS251
+                </a>
+            </article> 
+            <br>  
+            <article >
+            <a href="./cmns.html" class="course hovers">
+                MACM101
+            </a>
+            </article> <br>
+        </section>
+    </section>
+    <section style="float: right; top: 105px; left: 430px; position: fixed;">
+        <article>
+            <p >Jane</p>
+            <button class="bigtext">
+                Hey guys, I just enrolled in this class, <br> how do you guys like it so far? I'm kind <br>
+                of nervous haha :)
+            </button>
+        </article>
+    </section>
+        <article>
+            <button class="smalltext">
+                Hey, I'm Ryan, the class is pretty easy tbh
+            </button>
+        </article>
+        <section style="float: right; top: 394px; left: 430px; position: fixed;">
+        <article>
+            <p>Emily</p>
+            <button class="medtext">
+                We're starting a group project next week so you <br>
+                might want to start looking for teammates. Also we have a quiz <br>
+                every friday :)
+            </button>
+        </article>
+    </section>
+    <footer class="inline">
+        <article class="name">
+            <a href="./user.html" class="user hovers">
+                <img src="./img/768px-Circle-icons-profile.svg.png" alt="user icon"
+                style="width:42px;height:42px;">
+                Guest
+            </a>
+        </article>
+        <article class="chat">
+            <input type="text" placeholder="Click to type...." class="search">
+        </article>
+        <img class="arrow" src="./img/support15.6.png" style="width:22px;height:22px;">
+    </footer>
+    </body>
